@@ -1,0 +1,187 @@
+/* header {
+    padding: 30px;
+    background-color: #3b5998;
+
+} */
+header {
+    padding: 5px 250px 5px;
+    background-color: #3b5998;
+    box-sizing: border-box;
+
+}
+
+header h1 {
+    display: inline-block;
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+header login {
+    float: right;
+    display: block;
+    padding-top: 30px;
+}
+
+.emailLogin {
+    height: 40px;
+    font-size: 20px;
+    border: 0;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding-left: 15px;
+}
+
+.passLogin {
+    height: 40px;
+    font-size: 20px;
+    border: 0;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding-left: 15px;
+}
+
+.loginButton {
+    height: 46px;
+    font-size: 20px;
+    border: 0;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+body {
+    background-color: #EAF2FD;
+    margin: 0;
+}
+
+main {
+    padding-top: 50px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    float: left;
+    width: 50%;
+    padding-left: 250px;
+    box-sizing: border-box;
+}
+
+aside {
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+#image {
+    width: 95%;
+}
+
+p {
+    padding-right: 40%;
+    color: #828282;
+}
+
+h3 {
+    padding-right: 40px;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+h4 {
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 200;
+}
+
+.signUpButton {
+    padding: ;
+    height: 40px;
+    width: 200px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    background: linear-gradient(to bottom, #3eb726, #3c9a29)
+}
+
+.fname {
+    height: 46px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid #D8E8FD;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 10px;
+}
+
+.lname {
+    height: 46px;
+    font-size: 20px;
+    border: 2px solid #D8E8FD;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.Mobile {
+    height: 46px;
+    width: 58%;
+    border: 2px solid #D8E8FD;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding-left: 15px;
+}
+
+.password {
+    height: 46px;
+    width: 58%;
+    font-size: 20px;
+    border: 2px solid #D8E8FD;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding-left: 15px;
+}
+
+#select-day {
+    border-radius: 5px;
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+#select-month {
+    border-radius: 5px;
+    height: 30px;
+    width: 70px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+#select-year {
+    border-radius: 5px;
+    height: 30px;
+    width: 75px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.select-date {
+    margin-bottom: 10px;
+}
+
+.gender {
+    font-weight: 700;
+}
