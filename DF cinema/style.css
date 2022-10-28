@@ -1,0 +1,118 @@
+.navigation {
+    display: none;
+}
+
+.desktop-display {
+    display: block;
+}
+
+body {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#image {
+    max-width: 80px;
+    padding-right: 20px;
+}
+
+.cinemaText {
+    border-style: solid;
+    padding-left: 10px;
+    height: 250px;
+    margin-bottom: 0;
+}
+
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px;
+    gap: 15px;
+}
+
+.flex-container-signUp {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-right: 15px;
+}
+
+.flex-container-Wrapper {
+    display: flex;
+    padding-bottom: 40px;
+    gap: 50px;
+}
+
+.form-group {
+    padding-bottom: 50px;
+    width: 500px;
+}
+
+#signUp {
+    float: right;
+}
+
+.cinemaPic {
+    width: 1500px;
+    height: 250px;
+    object-fit: fill;
+}
+
+.desktopNav {
+    background-color: #c0ffee;
+}
+
+@media only screen and (max-width: 450px) {
+    body {
+        padding: 5px;
+    }
+
+    #image {
+        width: 50%;
+    }
+
+    .cinemaPic {
+        width: 200px;
+        height: 100px;
+        object-fit: fill;
+    }
+
+    .cinemaText {
+        font-size: 8px;
+        height: 100px;
+        width: 150px;
+    }
+
+    .navigation {
+        display: inline;
+        list-style: none;
+        text-align: center;
+        position: relative;
+        white-space: nowrap;
+        text-decoration: none;
+
+
+    }
+
+    .desktop-display {
+        display: none;
+    }
+
+    .navigationItem {
+        display: inline;
+    }
+
+    .navigationbar {
+        display: inline;
+    }
+
+    .flex-container {
+        gap: 30px;
+    }
+}

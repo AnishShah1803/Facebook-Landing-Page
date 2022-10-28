@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DF cinema</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+</head>
+
+<body class="bg-light">
+    <header>
+        <desktopNav class="desktop-display">
+            <nav class="navbar navbar-expand-sm bg-light navbar-light">
+                <a class="navbar-brand">
+                    <img id="image" src="digital futures.png" alt="Digital Futures Logo">
+                </a>
+                <ul class="navbar-nav">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="HomePage.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="SchedulePage.html">Schedule</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="SignUpPage.html">Sign Up</a>
+                    </li>
+                </ul>
+            </nav>
+        </desktopNav>
+        <!-- FOR MOBILE NAV -->
+        <mobileNav class="mobile-display">
+            <nav class="navigation">
+                <a class="brand">
+                    <img id="image" src="digital futures.png" alt="Digital Futures Logo">
+                </a>
+                <ul class="navigationbar">
+                    <li class="navigationItem active">
+                        <a href="HomePage.html" button type="link" class="btn btn-primary">Home</a>
+                    </li>
+                    <li class="navigationItem">
+                        <a href="SchedulePage.html" button type="link" class="btn btn-primary">Schedule</a>
+                    </li>
+                    <li class="navigationItem">
+                        <a href="SignUpPage.html" button type="link" class="btn btn-primary">Signup</a>
+                    </li>
+                </ul>
+            </nav>
+        </mobileNav>
+    </header>
+    <main class="flex-container-Wrapper">
+        <leftBlock class="flex-container-signUp">
+            <img1><img
+                    src="https://d16mxaepdfprsk.cloudfront.net/_imager/9d7f210625073359a7287efb69b7f706/Cinema-27_9b59cd795d5fe27138c14ad1ce178e8d.jpg" />
+            </img1>
+            <img2><img src="https://unsplash.it/900/200?image=508" /></img2>
+            <img3><img src="https://unsplash.it/900/200?image=509" /></img3>
+        </leftBlock>
+        <rightBlock class="flex-container-signUp">
+            <signUpForm>
+                <form>
+                    <div class="form-group row">
+                        <label for="inputTitle3" class="col-md-3 col-form-label">Title</label>
+                        <div class="col-md-9">
+                            <select class="form-select" aria-label="Default select example" required>
+                                <option selected>Title</option>
+                                <option value="Mr">Mr</option>
+                                <option value="Miss">Miss</option>
+                                <option value="Mrs">Mrs</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputFName3" class="col-xs-3 col-md-3 col-form-label-l">First Name*</label>
+                        <div class="col-xs-9 col-md-9">
+                            <input type="text" class="form-control" id="inputPassword3" placeholder="First Name"
+                                required>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputLName3" class="col-md-3 col-form-label">Last Name*</label>
+                        <div class="col-md-9">
+                            <input type="text" class="form-control" id="inputLName3" placeholder="Last Name" required>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputEmail3" class="col-md-3 col-form-label">Email*</label>
+                        <div class="col-md-9">
+                            <input type="email" class="form-control" id="inputEmail3" placeholder="Email" required>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="DateOfBirth" class="col-md-3 col-form-label">Date of Birth*</label>
+                        <div class="col-md-9">
+                            <input type="date" class="form-control" id="inputDate3" required>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputPassword3" class="col-md-3 col-form-label">Phone*</label>
+                        <div class="col-md-9">
+                            <input type="text" class="form-control" id="inputPassword3" placeholder="Phone" required>
+                        </div>
+                    </div>
+                    <div id="signUp"> <button type="submit" class="btn btn-primary">Sign Up</button></div>
+                    </div>
+                    </div>
+                </form>
+
+            </signUpForm>
+    </main>
+    <footer class="bg-light text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn text-white btn-floating m-1" style="background-color: #3b5998;" href="#!" role="button"><i
+                        class="fa fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn text-white btn-floating m-1" style="background-color: #55acee;" href="#!" role="button"><i
+                        class="fa fa-twitter"></i></a>
+
+                <!-- Google -->
+                <a class="btn text-white btn-floating m-1" style="background-color: #dd4b39;" href="#!" role="button"><i
+                        class="fa fa-google"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn text-white btn-floating m-1" style="background-color: #ac2bac;" href="#!" role="button"><i
+                        class="fa fa-instagram"></i></a>
+
+                <!-- Github -->
+                <a class="btn text-white btn-floating m-1" style="background-color: #333333;" href="#!" role="button"><i
+                        class="fa fa-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © DF Cinemas -2021
+        </div>
+        <!-- Copyright -->
+    </footer>
+</body>
+
+</html>
